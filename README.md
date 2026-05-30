@@ -218,6 +218,30 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 
 ---
 
+## The Reasoning Behind These 52 Agents
+
+Every agent in this repo follows the same hidden discipline. The instruction blocks that work in production aren't better at telling the agent what to do — they're explicit about what it must **never** do, they survive the 8,000-character limit without losing structure, and they fail in predictable, recoverable ways.
+
+That discipline is a craft. After writing and rewriting these 52 blocks, the patterns that separate an agent that holds up from one that drifts became repeatable — so I wrote them down.
+
+**[Agent Instruction Block Design Guide](https://kesslermathieu.gumroad.com/l/eyeauo)** — $19 — is the craft behind this repo:
+
+- **12 design patterns**, each with a before/after rewrite
+- **8 named failure modes** — the specific ways instruction blocks break, and how to close each one
+- **The 8,000-character constraint**, treated as a design problem instead of a wall you hit
+- A **reusable agent scaffold** you can start every new agent from
+- **5 full worked rewrites** of real instruction blocks, broken/fixed side by side
+- A **10-question deployment test** to run before you publish
+- **Agent Builder vs Copilot Studio** — every field limit, plus model-stability and reasoning/response-mode guidance
+
+These 52 agents are free and always will be — and they're already in production. This is the reasoning layer underneath them, for when you're mid-build in Agent Builder or Copilot Studio and your own block isn't behaving.
+
+**[Read the reasoning → $19](https://kesslermathieu.gumroad.com/l/eyeauo)**
+
+> Building the judgment side too — *when* an agent is the wrong tool? See **[When Not to Use AI — A Decision Framework for Teams](https://kesslermathieu.gumroad.com/l/nusvz)** ($29), or **[get both for $39](https://kesslermathieu.gumroad.com/l/oocxx)** (saves $9).
+
+---
+
 ## Companion Repo: M365 Copilot Premium Agents
 
 If your organisation upgrades to M365 Copilot, the premium repo unlocks SharePoint grounding, email and calendar access, and Teams integration.
