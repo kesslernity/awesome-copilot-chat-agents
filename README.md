@@ -1,6 +1,6 @@
 # Awesome Copilot Chat Agents
 
-> **62 ready-to-deploy agents for Microsoft Copilot Chat — no Copilot Premium required.**
+> **82 ready-to-deploy agents for Microsoft Copilot Chat — no Copilot Premium required.**
 > Paste each instruction block into the Copilot Studio agent builder. No coding. Works on any commercial M365 licence.
 
 [![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents/stargazers)
@@ -243,6 +243,58 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 | 60 | [Vendor Scorecard Builder](agents/procurement/vendor-scorecard-builder.md) | Structures performance evidence into a scorecard (reviewer sets the ratings) | Procurement / Vendor managers | `@Vendor Scorecard Builder` |
 | 61 | [Negotiation Prep Brief](agents/procurement/negotiation-prep-brief.md) | Turns history and context into a negotiation prep brief (no price targets) | Procurement / Category / Buyers | `@Negotiation Prep Brief` |
 | 62 | [Supplier Comms Drafter](agents/procurement/supplier-comms-drafter.md) | Drafts RFI invites, clarifications, declines, onboarding requests (no commitments) | Procurement / Buyers / Ops | `@Supplier Comms Drafter` |
+
+### Domain 13: Data & Analytics
+`agents/data-analytics/`
+
+*These agents explore, document, and draft — never the source of truth. Verify every figure in your data/BI platform; correlation is not causation.*
+
+| # | Agent | Description | Audience | Invoke |
+|---|-------|-------------|----------|--------|
+| 63 | [Data Story Writer](agents/data-analytics/data-story-writer.md) | Turns validated findings into a stakeholder narrative (no recompute, no overclaim) | Data / BI / Analytics | `@Data Story Writer` |
+| 64 | [Report Requirements Builder](agents/data-analytics/report-requirements-builder.md) | Turns a stakeholder ask into a BI requirements spec with gaps flagged | BI / Business analysts | `@Report Requirements Builder` |
+| 65 | [KPI Definition Helper](agents/data-analytics/kpi-definition-helper.md) | Drafts precise KPI/metric definitions for governance review | Analytics / BI / Data | `@KPI Definition Helper` |
+| 66 | [Chart Advisor](agents/data-analytics/chart-advisor.md) | Recommends chart types and encodings for a message and data shape | Analysts / anyone building a chart | `@Chart Advisor` |
+| 67 | [Data Dictionary Builder](agents/data-analytics/data-dictionary-builder.md) | Turns a column list/schema into a data dictionary draft, [TBC] where unknown | Data / Analytics engineers | `@Data Dictionary Builder` |
+
+### Domain 14: Data Privacy
+`agents/data-privacy/`
+
+*These agents prepare privacy paperwork only — they never determine lawfulness, breach notifiability, DPIA risk, or what to disclose, and they work from descriptions, never personal data. The DPO decides.*
+
+| # | Agent | Description | Audience | Invoke |
+|---|-------|-------------|----------|--------|
+| 68 | [DPIA Scaffold Builder](agents/data-privacy/dpia-scaffold-builder.md) | Turns a processing description into a DPIA scaffold (ratings left to the DPO) | DPO / Privacy counsel / Privacy | `@DPIA Scaffold Builder` |
+| 69 | [ROPA Entry Drafter](agents/data-privacy/ropa-entry-drafter.md) | Drafts a Record of Processing Activities entry (lawful basis left to confirm) | Privacy managers / DPO | `@ROPA Entry Drafter` |
+| 70 | [DSAR Intake Assistant](agents/data-privacy/dsar-intake-assistant.md) | Structures a data subject request into intake, scope, and statutory clock | Privacy / DPO | `@DSAR Intake Assistant` |
+| 71 | [Breach Triage Organizer](agents/data-privacy/breach-triage-organizer.md) | Organizes suspected-breach facts for the DPO's assessment (no notifiability call) | DPO / Privacy / Incident leads | `@Breach Triage Organizer` |
+| 72 | [Privacy Notice Drafter](agents/data-privacy/privacy-notice-drafter.md) | Drafts a privacy notice/section for legal/DPO review and jurisdiction check | Privacy counsel / DPO | `@Privacy Notice Drafter` |
+
+### Domain 15: Trade Compliance
+`agents/trade-compliance/`
+
+*These agents prepare the export-control file only — they never assign a classification, determine a screening match, clear a party, or decide a licence. Screening runs in your screening tool; trade compliance decides. Export/sanctions errors carry civil and criminal liability.*
+
+| # | Agent | Description | Audience | Invoke |
+|---|-------|-------------|----------|--------|
+| 73 | [Export Classification Prep](agents/trade-compliance/export-classification-prep.md) | Builds a classification worksheet from a product/tech description (no ECCN/USML assigned) | Export control / Trade compliance | `@Export Classification Prep` |
+| 74 | [Restricted Party Screening Prep](agents/trade-compliance/restricted-party-screening-prep.md) | Extracts all parties to screen + a checklist (screening runs in the tool) | Trade compliance / Trade ops | `@Restricted Party Screening Prep` |
+| 75 | [Export Red Flag Checker](agents/trade-compliance/red-flag-checker.md) | Applies standard export red-flag indicators to a transaction (flags, not a finding) | Trade compliance / Export liaisons | `@Export Red Flag Checker` |
+| 76 | [End-Use Statement Drafter](agents/trade-compliance/end-use-statement-drafter.md) | Drafts an end-use/end-user statement scaffold + due-diligence questions | Trade compliance / Sales | `@End-Use Statement Drafter` |
+| 77 | [Trade Compliance Comms Drafter](agents/trade-compliance/trade-comms-drafter.md) | Drafts end-use requests, hold notices, escalations (no clearance/determination) | Trade compliance / Trade ops | `@Trade Compliance Comms Drafter` |
+
+### Domain 16: Risk, Ethics & Compliance
+`agents/risk-ethics-compliance/`
+
+*These agents prepare GRC paperwork only — they never make a compliance determination, an ethics ruling, an investigation finding, or a risk acceptance. Investigations and speak-up matters are confidential and may be privileged.*
+
+| # | Agent | Description | Audience | Invoke |
+|---|-------|-------------|----------|--------|
+| 78 | [Compliance Policy Drafter](agents/risk-ethics-compliance/policy-drafter.md) | Drafts a compliance/ethics policy (code, ABAC, COI) for compliance/legal review | Compliance / Ethics counsel | `@Compliance Policy Drafter` |
+| 79 | [COI Disclosure Triage](agents/risk-ethics-compliance/coi-disclosure-triage.md) | Structures a conflict-of-interest disclosure into an assessment intake | Ethics & compliance | `@COI Disclosure Triage` |
+| 80 | [Third-Party DD Questionnaire Builder](agents/risk-ethics-compliance/third-party-dd-questionnaire.md) | Builds an ABAC/third-party due-diligence questionnaire + red flags (no clearance) | Compliance / ABAC | `@Third-Party DD Questionnaire Builder` |
+| 81 | [Controls Mapping Helper](agents/risk-ethics-compliance/controls-mapping-helper.md) | Maps a requirement to controls and flags gaps (no compliance conclusion) | Compliance / Risk / Audit | `@Controls Mapping Helper` |
+| 82 | [Investigation Chronology Organizer](agents/risk-ethics-compliance/investigation-chronology-organizer.md) | Organizes investigation facts into a confidential chronology (never a finding) | Investigations / Compliance counsel | `@Investigation Chronology Organizer` |
 
 ---
 
