@@ -226,6 +226,21 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 
 ---
 
+### Domain 11: Legal & Contracts
+`agents/legal/`
+
+*These agents draft and organize only. Every output requires review by a qualified lawyer before use, and law is jurisdiction-specific — they do not provide legal advice.*
+
+| # | Agent | Description | Audience | Invoke |
+|---|-------|-------------|----------|--------|
+| 53 | [Contract Clause Reviewer](agents/legal/contract-clause-reviewer.md) | Reviews a pasted clause against your standard position — lists deviations and points to raise | In-house counsel / Contracts / Legal ops | `@Contract Clause Reviewer` |
+| 54 | [NDA First-Draft Assistant](agents/legal/nda-first-draft-assistant.md) | Drafts a first-draft NDA from a brief, marked for legal review, with a reviewer checklist | In-house counsel / Contracts / Paralegals | `@NDA First-Draft Assistant` |
+| 55 | [Legal Research Summarizer](agents/legal/legal-research-summarizer.md) | Summarizes pasted memos, case notes, or statute excerpts into a structured brief | In-house counsel / Paralegals / Compliance | `@Legal Research Summarizer` |
+| 56 | [Matter Status Reporter](agents/legal/matter-status-reporter.md) | Turns matter notes into a structured legal status report | In-house counsel / Legal ops / Paralegals | `@Matter Status Reporter` |
+| 57 | [Regulatory & Policy Tracker](agents/legal/regulatory-policy-tracker.md) | Turns regulatory updates or policy text into an impact summary for compliance review | Compliance / In-house counsel / Regulatory | `@Regulatory & Policy Tracker` |
+
+---
+
 ## The Reasoning Behind These 52 Agents
 
 Every agent in this repo follows the same hidden discipline. The instruction blocks that work in production aren't better at telling the agent what to do — they're explicit about what it must **never** do, they survive the 8,000-character limit without losing structure, and they fail in predictable, recoverable ways.
