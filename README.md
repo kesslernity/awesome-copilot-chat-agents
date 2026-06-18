@@ -1,6 +1,6 @@
 # Awesome Copilot Chat Agents
 
-> **52 ready-to-deploy agents for Microsoft Copilot Chat — no Copilot Premium required.**
+> **62 ready-to-deploy agents for Microsoft Copilot Chat — no Copilot Premium required.**
 > Paste each instruction block into the Copilot Studio agent builder. No coding. Works on any commercial M365 licence.
 
 [![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents/stargazers)
@@ -28,14 +28,6 @@ If your organisation is evaluating which users need premium Copilot licences, th
 The **[M365 Copilot Practitioner Kit](https://kesslermathieu.gumroad.com/l/kpfpi)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 26 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
 
 **[Get the kit →](https://kesslermathieu.gumroad.com/l/kpfpi)**
-
----
-
-### 📕 Governing the estate, not just building it
-
-If you are running AI in an enterprise and the question "who owns the model's mistake?" does not yet have a name against it, **Critical Density** is the responsibility-and-audit playbook: how dependency builds invisibly, why attribution has to be installed before an incident, and a five-artifact toolkit (the Density Register, the Attribution-Readiness Checklist, the RACI-for-AI, the Audit Question Bank, and the Governance-Cadence Control Spec). Audit-grade, EU AI Act-aware, sector-neutral.
-
-Start free with the [Licence-Plate Test](https://store.kesslernity.com/l/licence-plate-test) (a 12-question attribution self-test), or get the full book + toolkit: [Critical Density, $59](https://store.kesslernity.com/l/critical-density).
 
 ---
 
@@ -239,29 +231,18 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 | 56 | [Matter Status Reporter](agents/legal/matter-status-reporter.md) | Turns matter notes into a structured legal status report | In-house counsel / Legal ops / Paralegals | `@Matter Status Reporter` |
 | 57 | [Regulatory & Policy Tracker](agents/legal/regulatory-policy-tracker.md) | Turns regulatory updates or policy text into an impact summary for compliance review | Compliance / In-house counsel / Regulatory | `@Regulatory & Policy Tracker` |
 
----
+### Domain 12: Procurement & Vendor Management
+`agents/procurement/`
 
-## The Reasoning Behind These 52 Agents
+*These agents prepare and organize only — they never score, select, award, or commit. Evaluation and award decisions stay with procurement under your governance.*
 
-Every agent in this repo follows the same hidden discipline. The instruction blocks that work in production aren't better at telling the agent what to do — they're explicit about what it must **never** do, they survive the 8,000-character limit without losing structure, and they fail in predictable, recoverable ways.
-
-That discipline is a craft. After writing and rewriting these 52 blocks, the patterns that separate an agent that holds up from one that drifts became repeatable — so I wrote them down.
-
-**[Agent Instruction Block Design Guide](https://kesslermathieu.gumroad.com/l/eyeauo)** — $19 — is the craft behind this repo:
-
-- **12 design patterns**, each with a before/after rewrite
-- **8 named failure modes** — the specific ways instruction blocks break, and how to close each one
-- **The 8,000-character constraint**, treated as a design problem instead of a wall you hit
-- A **reusable agent scaffold** you can start every new agent from
-- **5 full worked rewrites** of real instruction blocks, broken/fixed side by side
-- A **10-question deployment test** to run before you publish
-- **Agent Builder vs Copilot Studio** — every field limit, plus model-stability and reasoning/response-mode guidance
-
-These 52 agents are free and always will be — and they're already in production. This is the reasoning layer underneath them, for when you're mid-build in Agent Builder or Copilot Studio and your own block isn't behaving.
-
-**[Read the reasoning → $19](https://kesslermathieu.gumroad.com/l/eyeauo)**
-
-> Building the judgment side too — *when* an agent is the wrong tool? See **[When Not to Use AI — A Decision Framework for Teams](https://kesslermathieu.gumroad.com/l/nusvz)** ($29), or **[get both for $39](https://kesslermathieu.gumroad.com/l/oocxx)** (saves $9).
+| # | Agent | Description | Audience | Invoke |
+|---|-------|-------------|----------|--------|
+| 58 | [RFP Requirements Builder](agents/procurement/rfp-requirements-builder.md) | Turns a need into structured RFP/RFQ requirements (criteria only, no scores) | Procurement / Category / Sourcing | `@RFP Requirements Builder` |
+| 59 | [Supplier Response Comparator](agents/procurement/supplier-response-comparator.md) | Lays bid responses side by side vs requirements with gaps and questions | Procurement / Sourcing / Panels | `@Supplier Response Comparator` |
+| 60 | [Vendor Scorecard Builder](agents/procurement/vendor-scorecard-builder.md) | Structures performance evidence into a scorecard (reviewer sets the ratings) | Procurement / Vendor managers | `@Vendor Scorecard Builder` |
+| 61 | [Negotiation Prep Brief](agents/procurement/negotiation-prep-brief.md) | Turns history and context into a negotiation prep brief (no price targets) | Procurement / Category / Buyers | `@Negotiation Prep Brief` |
+| 62 | [Supplier Comms Drafter](agents/procurement/supplier-comms-drafter.md) | Drafts RFI invites, clarifications, declines, onboarding requests (no commitments) | Procurement / Buyers / Ops | `@Supplier Comms Drafter` |
 
 ---
 
