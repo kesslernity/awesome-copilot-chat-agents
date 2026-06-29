@@ -298,13 +298,22 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 
 ---
 
-## Companion Repo: M365 Copilot Premium Agents
+## More from Kesslernity
 
-If your organisation upgrades to M365 Copilot, the premium repo unlocks SharePoint grounding, email and calendar access, and Teams integration.
+This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
-**[awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents)** — 78 agents across 14 domains, built for M365 Copilot premium licences.
+**Free**
+- 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page)
 
-Several agents in this repo have premium counterparts there that add M365 data grounding — for example, a Status Report Writer that reads from your actual project SharePoint site instead of requiring pasted input. If you are running both licence tiers in your organisation, the two repos complement each other: deploy the chat agents for your broad user base, and the premium agents for your Copilot-licensed cohort.
+**The rest of the free Copilot repos**
+- [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 400+ tested Copilot prompts
+- [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
+- [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
+
+**Deploying Copilot for a team?**
+- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://kesslernity.com/store)**
+
+Independent and vendor-neutral. Not affiliated with Microsoft.
 
 ---
 
