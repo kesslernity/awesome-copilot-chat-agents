@@ -25,9 +25,9 @@ If your organisation is evaluating which users need premium Copilot licences, th
 
 ## Deploying Copilot for your org?
 
-The **[M365 Copilot Practitioner Kit](https://kesslermathieu.gumroad.com/l/kpfpi)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 26 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
+The **[M365 Copilot Practitioner Kit](https://store.kesslernity.com/l/kpfpi)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 26 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
 
-**[Get the kit →](https://kesslermathieu.gumroad.com/l/kpfpi)**
+**[Get the kit →](https://store.kesslernity.com/l/kpfpi)**
 
 ---
 
