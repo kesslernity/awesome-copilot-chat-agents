@@ -175,4 +175,4 @@ When improving an existing agent, increment the version in the front matter (e.g
 
 ## Questions
 
-Open an issue or reach out via [kesslernity.com](https://kesslernity.com).
+Open an issue or reach out via [kesslernity.com](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=contributing).

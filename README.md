@@ -25,9 +25,9 @@ If your organisation is evaluating which users need premium Copilot licences, th
 
 ## Deploying Copilot for your org?
 
-The **[M365 Copilot Practitioner Kit](https://store.kesslernity.com/l/kpfpi)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 26 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
+The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=kit_block)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 26 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
 
-**[Get the kit →](https://store.kesslernity.com/l/kpfpi)**
+**[See what is in the kit →](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=kit_block)**
 
 ---
 
@@ -35,11 +35,11 @@ The **[M365 Copilot Practitioner Kit](https://store.kesslernity.com/l/kpfpi)** c
 
 **AI at Work** — a biweekly GenAI briefing with verified news, tested prompts, and one practical insight for your whole team.
 
-[Subscribe at newsletter.kesslernity.com](https://newsletter.kesslernity.com)
+[Subscribe at newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero)
 
 Free 35-minute course: **AI Quick Start Essentials** — practical responsible AI use, no prior experience needed.
 
-[Start free at trainings.kesslernity.com](https://trainings.kesslernity.com)
+[Start free at trainings.kesslernity.com](https://trainings.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero)
 
 ---
 
@@ -303,7 +303,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
 **Free**
-- 📄 **Copilot on One Page** — the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page)
+- 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
 - [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 400+ tested Copilot prompts
@@ -311,7 +311,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
 
 **Deploying Copilot for a team?**
-- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://kesslernity.com/store)**
+- 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)**
 
 Independent and vendor-neutral. Not affiliated with Microsoft.
 
@@ -331,8 +331,8 @@ The two key constraints for this repo:
 
 [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-You are free to use, adapt, and redistribute these agents — including commercially — as long as you credit the source and share derivatives under the same licence.
+You are free to use, adapt, and redistribute these agents, including commercially, as long as you credit the source and share derivatives under the same licence.
 
 ---
 
-*Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) · [NerdyChefs.ai](https://nerdychefs.ai) · [kesslernity.com](https://kesslernity.com)*
+*Built by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) · [NerdyChefs.ai](https://nerdychefs.ai) · [kesslernity.com](https://www.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=byline)*
