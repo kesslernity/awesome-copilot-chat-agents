@@ -1,6 +1,6 @@
 # Awesome Copilot Chat Agents
 
-> **82 ready-to-deploy agents for Microsoft Copilot Chat — no Copilot Premium required.**
+> **82 ready-to-deploy agents for Microsoft Copilot Chat, no Copilot Premium required.**
 > Paste each instruction block into the Copilot Studio agent builder. No coding. Works on any commercial M365 licence.
 
 [![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents/stargazers)
@@ -10,14 +10,14 @@
 
 ## Who This Is For
 
-Most enterprise M365 deployments have a small cohort of users on M365 Copilot (the premium licence) and a much larger group on Copilot Chat — the version included with any commercial M365 licence at no extra cost. That larger group does not get email or calendar grounding, SharePoint search, or Teams integration. What they do get is a capable AI assistant with a custom agent builder, web search, and file analysis.
+Most enterprise M365 deployments have a small cohort of users on M365 Copilot (the premium licence) and a much larger group on Copilot Chat, the version included with any commercial M365 licence at no extra cost. That larger group does not get email or calendar grounding, SharePoint search, or Teams integration. What they do get is a capable AI assistant with a custom agent builder, web search, and file analysis.
 
 This repo serves the majority. Every agent here is designed for Copilot Chat's constraints:
 
-- **Instruction-only** — no SharePoint knowledge sources required
-- **No M365 data grounding** — everything works from pasted input or web search
-- **No extra cost** — deploys on any commercial M365 licence
-- **No coding** — paste the instruction block into the Copilot Studio builder and you are done
+- **Instruction-only**: no SharePoint knowledge sources required
+- **No M365 data grounding**: everything works from pasted input or web search
+- **No extra cost**: deploys on any commercial M365 licence
+- **No coding**: paste the instruction block into the Copilot Studio builder and you are done
 
 If your organisation is evaluating which users need premium Copilot licences, this repo demonstrates how much is possible without them.
 
@@ -33,11 +33,11 @@ The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=g
 
 ## AI at Work Newsletter + Free Course
 
-**AI at Work** — a biweekly GenAI briefing with verified news, tested prompts, and one practical insight for your whole team.
+**AI at Work**: a biweekly GenAI briefing with verified news, tested prompts, and one practical insight for your whole team.
 
 [Subscribe at newsletter.kesslernity.com](https://newsletter.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero)
 
-Free 35-minute course: **AI Quick Start Essentials** — practical responsible AI use, no prior experience needed.
+Free 35-minute course: **AI Quick Start Essentials**: practical responsible AI use, no prior experience needed.
 
 [Start free at trainings.kesslernity.com](https://trainings.kesslernity.com/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero)
 
@@ -45,7 +45,7 @@ Free 35-minute course: **AI Quick Start Essentials** — practical responsible A
 
 ## What This Is
 
-These are **declarative agents** built in Microsoft Copilot Studio — the same builder available at [m365.cloud.microsoft](https://m365.cloud.microsoft). Each agent has:
+These are **declarative agents** built in Microsoft Copilot Studio, the same builder available at [m365.cloud.microsoft](https://m365.cloud.microsoft). Each agent has:
 
 - A name and description users see when they @mention it
 - Conversation starters that guide first use
@@ -66,7 +66,7 @@ These are **declarative agents** built in Microsoft Copilot Studio — the same 
 
 ---
 
-## Copilot Chat vs M365 Copilot — What Works Here
+## Copilot Chat vs M365 Copilot: What Works Here
 
 | Feature | Copilot Chat (free tier) | M365 Copilot (premium) |
 |---------|:----------------------:|:--------------------:|
@@ -88,9 +88,9 @@ These are **declarative agents** built in Microsoft Copilot Studio — the same 
 2. Paste the **Name** and **Description** from the agent file's front matter
 3. Paste the **Conversation Starters** (up to 4)
 4. Copy the full instruction block from the **Instructions** section and paste it into the Instructions field
-5. Save and publish — the agent is immediately available via @mention in Copilot Chat
+5. Save and publish: the agent is immediately available via @mention in Copilot Chat
 
-**For research-web agents (marked 🌐):** Enable web search in the agent's settings when creating it. This is free and uses Bing — no additional licence required.
+**For research-web agents (marked 🌐):** Enable web search in the agent's settings when creating it. This is free and uses Bing, no additional licence required.
 
 No SharePoint connections, no Actions, no Graph connectors needed for any agent in this repo.
 
@@ -110,7 +110,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 | 5 | [Report Narrative Builder](agents/writing-communication/report-narrative-builder.md) | Converts data tables or raw findings into narrative paragraphs | Analysts / Finance / PMs | `@Report Narrative Builder` |
 | 6 | [Business Case Builder](agents/writing-communication/business-case-builder.md) | Structures a business case document from pasted notes | Managers / BAs / Project leads | `@Business Case Builder` |
 | 7 | [Language Translator](agents/writing-communication/language-translator.md) | Translates text between languages with tone and register preservation | Global teams / All staff | `@Language Translator` |
-| 8 | [AI Text Humanizer](agents/writing-communication/ai-text-humanizer.md) | Removes AI writing patterns — restores direct, varied, human-sounding prose | All staff / Writers / Comms / Marketing | `@AI Text Humanizer` |
+| 8 | [AI Text Humanizer](agents/writing-communication/ai-text-humanizer.md) | Removes AI writing patterns, restores direct, varied, human-sounding prose | All staff / Writers / Comms / Marketing | `@AI Text Humanizer` |
 
 ### Domain 2: Project Management
 `agents/project-management/`
@@ -143,7 +143,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 | 20 | [Interview Question Generator](agents/hr-people/interview-question-generator.md) | Generates competency-based interview question sets from a JD | HR / Hiring managers | `@Interview Question Generator` |
 | 21 | [Performance Feedback Coach](agents/hr-people/performance-feedback-coach.md) | Helps write balanced SBI-model performance feedback from notes | Managers / HR / All staff | `@Performance Feedback Coach` |
 | 22 | [Onboarding Checklist Builder](agents/hr-people/onboarding-checklist-builder.md) | Builds structured onboarding checklists from pre-arrival to day 30 | HR / Managers / Team leads | `@Onboarding Checklist Builder` |
-| 23 | [Team Announcement Writer](agents/hr-people/team-announcement-writer.md) | Drafts team announcements — hires, departures, restructures, launches | Managers / HR / Comms | `@Team Announcement Writer` |
+| 23 | [Team Announcement Writer](agents/hr-people/team-announcement-writer.md) | Drafts team announcements: hires, departures, restructures, launches | Managers / HR / Comms | `@Team Announcement Writer` |
 
 ### Domain 5: Learning & Knowledge
 `agents/learning-knowledge/`
@@ -181,7 +181,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 8: Engineering
 `agents/engineering/`
 
-*These agents include explicit safety boundaries — all outputs must be reviewed by the responsible engineer before issue.*
+*These agents include explicit safety boundaries: all outputs must be reviewed by the responsible engineer before issue.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -205,7 +205,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 10: Research & Web Intelligence 🌐
 `agents/research-web/`
 
-*These agents use Bing web search — free and built into Copilot Chat. Enable web search when creating the agent.*
+*These agents use Bing web search, free and built into Copilot Chat. Enable web search when creating the agent.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -214,18 +214,18 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 | 51 | [Competitor Monitor](agents/research-web/competitor-monitor.md) 🌐 | Summarises recent public activity for a named competitor | Sales / Marketing / Strategy | `@Competitor Monitor` |
 | 52 | [Market Brief Builder](agents/research-web/market-brief-builder.md) 🌐 | Builds a market intelligence brief on any sector using web search | Strategy / BD / Sales / Leadership | `@Market Brief Builder` |
 
-🌐 = Requires web search enabled in Copilot Chat settings. Free — uses Bing, no additional licence required.
+🌐 = Requires web search enabled in Copilot Chat settings. Free: uses Bing, no additional licence required.
 
 ---
 
 ### Domain 11: Legal & Contracts
 `agents/legal/`
 
-*These agents draft and organize only. Every output requires review by a qualified lawyer before use, and law is jurisdiction-specific — they do not provide legal advice.*
+*These agents draft and organize only. Every output requires review by a qualified lawyer before use, and law is jurisdiction-specific, so they do not provide legal advice.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
-| 53 | [Contract Clause Reviewer](agents/legal/contract-clause-reviewer.md) | Reviews a pasted clause against your standard position — lists deviations and points to raise | In-house counsel / Contracts / Legal ops | `@Contract Clause Reviewer` |
+| 53 | [Contract Clause Reviewer](agents/legal/contract-clause-reviewer.md) | Reviews a pasted clause against your standard position, lists deviations and points to raise | In-house counsel / Contracts / Legal ops | `@Contract Clause Reviewer` |
 | 54 | [NDA First-Draft Assistant](agents/legal/nda-first-draft-assistant.md) | Drafts a first-draft NDA from a brief, marked for legal review, with a reviewer checklist | In-house counsel / Contracts / Paralegals | `@NDA First-Draft Assistant` |
 | 55 | [Legal Research Summarizer](agents/legal/legal-research-summarizer.md) | Summarizes pasted memos, case notes, or statute excerpts into a structured brief | In-house counsel / Paralegals / Compliance | `@Legal Research Summarizer` |
 | 56 | [Matter Status Reporter](agents/legal/matter-status-reporter.md) | Turns matter notes into a structured legal status report | In-house counsel / Legal ops / Paralegals | `@Matter Status Reporter` |
@@ -234,7 +234,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 12: Procurement & Vendor Management
 `agents/procurement/`
 
-*These agents prepare and organize only — they never score, select, award, or commit. Evaluation and award decisions stay with procurement under your governance.*
+*These agents prepare and organize only: they never score, select, award, or commit. Evaluation and award decisions stay with procurement under your governance.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -247,7 +247,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 13: Data & Analytics
 `agents/data-analytics/`
 
-*These agents explore, document, and draft — never the source of truth. Verify every figure in your data/BI platform; correlation is not causation.*
+*These agents explore, document, and draft. They are never the source of truth. Verify every figure in your data/BI platform; correlation is not causation.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -260,7 +260,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 14: Data Privacy
 `agents/data-privacy/`
 
-*These agents prepare privacy paperwork only — they never determine lawfulness, breach notifiability, DPIA risk, or what to disclose, and they work from descriptions, never personal data. The DPO decides.*
+*These agents prepare privacy paperwork only: they never determine lawfulness, breach notifiability, DPIA risk, or what to disclose, and they work from descriptions, never personal data. The DPO decides.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -273,7 +273,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 15: Trade Compliance
 `agents/trade-compliance/`
 
-*These agents prepare the export-control file only — they never assign a classification, determine a screening match, clear a party, or decide a licence. Screening runs in your screening tool; trade compliance decides. Export/sanctions errors carry civil and criminal liability.*
+*These agents prepare the export-control file only: they never assign a classification, determine a screening match, clear a party, or decide a licence. Screening runs in your screening tool; trade compliance decides. Export/sanctions errors carry civil and criminal liability.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -286,7 +286,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 16: Risk, Ethics & Compliance
 `agents/risk-ethics-compliance/`
 
-*These agents prepare GRC paperwork only — they never make a compliance determination, an ethics ruling, an investigation finding, or a risk acceptance. Investigations and speak-up matters are confidential and may be privileged.*
+*These agents prepare GRC paperwork only: they never make a compliance determination, an ethics ruling, an investigation finding, or a risk acceptance. Investigations and speak-up matters are confidential and may be privileged.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
@@ -306,9 +306,9 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
-- [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts) — 400+ tested Copilot prompts
-- [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents) — ready-to-deploy Copilot Studio agents
-- [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills) — Cowork skills
+- [awesome-microsoft-copilot-prompts](https://github.com/kesslernity/awesome-microsoft-copilot-prompts): 400+ tested Copilot prompts
+- [awesome-copilot-studio-agents](https://github.com/kesslernity/awesome-copilot-studio-agents): ready-to-deploy Copilot Studio agents
+- [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills): Cowork skills
 
 **Deploying Copilot for a team?**
 - 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)**
@@ -322,7 +322,7 @@ Independent and vendor-neutral. Not affiliated with Microsoft.
 Contributions welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for the quality bar, file format requirements, and PR guidelines.
 
 The two key constraints for this repo:
-- **Copilot Chat tier only** — no SharePoint knowledge sources, no Graph connectors, no premium features
+- **Copilot Chat tier only**: no SharePoint knowledge sources, no Graph connectors, no premium features
 - Instruction blocks must be under 8,000 characters
 
 ---
