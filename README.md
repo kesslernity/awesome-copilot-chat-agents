@@ -25,7 +25,7 @@ If your organisation is evaluating which users need premium Copilot licences, th
 
 ## Deploying Copilot for your org?
 
-The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=kit_block)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 26 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
+The **[M365 Copilot Deployment Kit](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=kit_block)** covers the full picture: IT prerequisites, governance before you publish, a 90-day rollout roadmap, 28 field guides, and 10 agent templates with practitioner notes on when to build each and what breaks in week one.
 
 **[See what is in the kit →](https://www.kesslernity.com/kit?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=kit_block)**
 
