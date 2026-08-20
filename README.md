@@ -6,6 +6,8 @@
 [![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents/stargazers)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
+**Start here, free:** [Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero) is the four-step loop these agents are built around. One page, printable.
+
 ---
 
 ## Who This Is For
@@ -297,6 +299,14 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 | 80 | [Third-Party DD Questionnaire Builder](agents/risk-ethics-compliance/third-party-dd-questionnaire.md) | Builds an ABAC/third-party due-diligence questionnaire + red flags (no clearance) | Compliance / ABAC | `@Third-Party DD Questionnaire Builder` |
 | 81 | [Controls Mapping Helper](agents/risk-ethics-compliance/controls-mapping-helper.md) | Maps a requirement to controls and flags gaps (no compliance conclusion) | Compliance / Risk / Audit | `@Controls Mapping Helper` |
 | 82 | [Investigation Chronology Organizer](agents/risk-ethics-compliance/investigation-chronology-organizer.md) | Organizes investigation facts into a confidential chronology (never a finding) | Investigations / Compliance counsel | `@Investigation Chronology Organizer` |
+
+### Writing your own
+
+The agents here work because their instruction blocks are specific about what to refuse, not just
+what to do. That is the part most people leave out, and it is why an agent that demos well falls
+over in week two.
+
+[The Agent Instruction Block Design Guide](https://store.kesslernity.com/l/eyeauo?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=instruction_block_a) is twelve patterns for it. $19, one-time.
 
 ---
 
