@@ -6,7 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents/stargazers)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-**Start here, free:** [Copilot on One Page](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero) is the four-step loop these agents are built around. One page, printable.
+**Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero) is the four-step loop these agents are built around. One page, printable.
 
 ---
 
@@ -315,7 +315,7 @@ over in week two.
 This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
 **Free**
-- 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://store.kesslernity.com/l/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
+- 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 - 📺 **YouTube**: Copilot walkthroughs, agent builds, and what actually changed in the roadmap this month. [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 
 **The rest of the free Copilot repos**
