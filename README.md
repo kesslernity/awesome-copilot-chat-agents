@@ -308,6 +308,8 @@ over in week two.
 
 [The Agent Instruction Block Design Guide](https://store.kesslernity.com/l/eyeauo?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=instruction_block_a) is twelve patterns for it. $19, one-time.
 
+Rolling Copilot out across an organisation rather than building one agent? [The Copilot Rollout Bundle](https://store.kesslernity.com/l/copilot-rollout-bundle?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=rollout_bundle) has the Deployment Kit, The Real Cost of Copilot and the Honest Kit together for $134 instead of $165.
+
 ---
 
 ## More from Kesslernity
