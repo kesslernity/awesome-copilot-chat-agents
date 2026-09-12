@@ -327,6 +327,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 - [awesome-copilot-cowork-skills](https://github.com/kesslernity/awesome-copilot-cowork-skills): Cowork skills
 
 **Deploying Copilot for a team?**
+- [Ivy Tendril](https://github.com/Ivy-Interactive/Ivy-Tendril): Open-source agentic software factory with an amazing UI that handles parallel Git worktrees for you, complete with programmatic verifications and fast review loops
 - 🛒 Deployment kits, governance playbooks, and the honest "when not to use it" guides, built so you can deploy Copilot without a consultant: **[kesslernity.com/store](https://www.kesslernity.com/store?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)**
 
 Independent and vendor-neutral. Not affiliated with Microsoft.
