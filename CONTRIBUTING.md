@@ -1,6 +1,6 @@
 # Contributing to Awesome Copilot Chat Agents
 
-Thank you for contributing. This repo is maintained by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and accepts community contributions for new agents and improvements to existing ones.
+Thank you for contributing. This is a library of original agents written and tested for this repository, not a directory of links to other people's projects. It is maintained by [Mathieu Kessler](https://linkedin.com/in/mathieukessler) and accepts community contributions for new agents and improvements to existing ones. A pull request that adds a link to an external tool, list or product will be closed, however good the tool is.
 
 ---
 
