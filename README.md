@@ -319,6 +319,7 @@ This repo is free and stays free. If it's useful, here's the rest of the toolkit
 **Free**
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 - ✅ **Day-0 Readiness Gate**: eight pass-or-fail checks to settle before the first Copilot licence goes out. [Free download](https://www.kesslernity.com/copilot-day0-readiness?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=day0)
+- ⊘ **Should this process exist?**: before you build an agent for it, check the process should exist at all. Ten evidence questions, six gates, and the first one that catches it decides. Runs in your browser, nothing you type leaves the page, no signup. [Free tool](https://www.kesslernity.com/tools/triage-floor?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=tool_triage_floor)
 - 📺 **YouTube**: Copilot walkthroughs, agent builds, and what actually changed in the roadmap this month. [@Kesslernity](https://www.youtube.com/@Kesslernity?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 - 🏢 **Kesslernity on LinkedIn**: Copilot governance and rollout notes as they ship. [Company Page](https://www.linkedin.com/company/kesslernity/?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 
