@@ -93,7 +93,7 @@ These are **declarative agents** built in Microsoft Copilot Studio, the same bui
 
 ## Copilot Chat vs M365 Copilot: What Works Here
 
-| Feature | Copilot Chat (free tier) | M365 Copilot (premium) |
+| Feature | Copilot Chat (included licence, metered agents) | M365 Copilot (premium) |
 |---------|:----------------------:|:--------------------:|
 | Custom declarative agents | ✓ | ✓ |
 | Web search (Bing) | ✓ | ✓ |
@@ -115,7 +115,7 @@ These are **declarative agents** built in Microsoft Copilot Studio, the same bui
 4. Copy the full instruction block from the **Instructions** section and paste it into the Instructions field
 5. Save and publish: the agent is immediately available via @mention in Copilot Chat
 
-**For research-web agents (marked 🌐):** Enable web search in the agent's settings when creating it. This is free and uses Bing, no additional licence required.
+**For research-web agents (marked 🌐):** Enable web search in the agent's settings when creating it. Web grounding uses Bing and needs no additional licence. It does not make the agent itself free: agent usage on Copilot Chat is metered, see the costs section above.
 
 No SharePoint connections, no Actions, no Graph connectors needed for any agent in this repo.
 
@@ -230,7 +230,7 @@ No SharePoint connections, no Actions, no Graph connectors needed for any agent 
 ### Domain 10: Research & Web Intelligence 🌐
 `agents/research-web/`
 
-*These agents use Bing web search, free and built into Copilot Chat. Enable web search when creating the agent.*
+*These agents use Bing web search, which is built into Copilot Chat and needs no extra licence. Agent usage is still metered, see the costs section above.*
 
 | # | Agent | Description | Audience | Invoke |
 |---|-------|-------------|----------|--------|
