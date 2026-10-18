@@ -12,16 +12,37 @@
 
 ## Who This Is For
 
-Most enterprise M365 deployments have a small cohort of users on M365 Copilot (the premium licence) and a much larger group on Copilot Chat, the version included with any commercial M365 licence at no extra cost. That larger group does not get email or calendar grounding, SharePoint search, or Teams integration. What they do get is a capable AI assistant with a custom agent builder, web search, and file analysis.
+Most enterprise M365 deployments have a small cohort of users on M365 Copilot (the premium licence) and a much larger group on Copilot Chat, which is included with any commercial M365 licence at no extra licence cost. That larger group does not get email or calendar grounding, SharePoint search, or Teams integration. What they do get is a capable AI assistant with a custom agent builder, web search, and file analysis.
 
 This repo serves the majority. Every agent here is designed for Copilot Chat's constraints:
 
 - **Instruction-only**: no SharePoint knowledge sources required
 - **No M365 data grounding**: everything works from pasted input or web search
-- **No extra cost**: deploys on any commercial M365 licence
+- **No premium Copilot licence**: deploys on any commercial M365 licence. Note the billing path below: custom agents on Copilot Chat are metered, not free.
 - **No coding**: paste the instruction block into the Copilot Studio builder and you are done
 
 If your organisation is evaluating which users need premium Copilot licences, this repo demonstrates how much is possible without them.
+
+### What this costs, stated plainly
+
+Corrected 18 October 2026. An earlier version of this README said "no extra cost", which
+was wrong, and this repo is the wrong place to be vague about a bill.
+
+You do **not** need the premium Microsoft 365 Copilot licence to build or run these agents.
+You **do** need a pay-as-you-go billing path, because on Copilot Chat custom agents are
+metered. Microsoft's own comparison states that without a Copilot licence, Copilot Studio
+access is "Pay-as-you-go", and its pricing page for the Copilot Chat tier states that agents
+are "priced on a metered basis" and that "An Azure subscription is required to use agents".
+
+So the honest shape is: the flat licence you already pay for is unchanged, and there is a
+metered path beside it for unlicensed users. Set a spending policy and a budget before you
+roll one of these out to a team, and price it against the per-seat licence rather than
+against zero.
+
+Sources, read 18 October 2026:
+- https://www.microsoft.com/en-us/microsoft-365-copilot/chat (Copilot Chat tier: metered agents, Azure subscription required)
+- https://support.microsoft.com/en-us/microsoft-365-copilot/how-copilot-chat-works-with-and-without-a-microsoft-365-copilot-license (Copilot Studio access: Pay-as-you-go)
+- https://learn.microsoft.com/en-us/microsoft-365/copilot/pay-as-you-go/overview (billing policy linked to an Azure subscription)
 
 ---
 
@@ -66,7 +87,7 @@ These are **declarative agents** built in Microsoft Copilot Studio, the same bui
 | Web search | Yes (Bing, built-in) | Yes |
 | File analysis | Yes (pasted) | Yes |
 | Custom agents | Yes | Yes |
-| Extra cost | None | Copilot licence |
+| Extra cost | Metered agent usage, billed pay-as-you-go via an Azure subscription | Copilot licence, agent usage included |
 
 ---
 
