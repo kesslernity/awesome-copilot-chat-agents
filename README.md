@@ -338,6 +338,7 @@ Rolling Copilot out across an organisation rather than building one agent? [The 
 This repo is free and stays free. If it's useful, here's the rest of the toolkit.
 
 **Free**
+- 📑 **Copilot skills for Excel and PowerPoint**: 24 custom skills in the open Agent Skills format, 12 for each app. Reconcile a pack, audit formulas, build an outline, check numbers. Upload one or deploy them org-wide. [Free on GitHub](https://github.com/kesslernity/awesome-copilot-office-skills?utm_source=github&utm_medium=repo&utm_campaign=office-skills)
 - 📄 **Copilot on One Page**: the one-page cheat sheet for getting real answers out of Copilot. [Free download](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=footer)
 - ✅ **Day-0 Readiness Gate**: eight pass-or-fail checks to settle before the first Copilot licence goes out. [Free download](https://www.kesslernity.com/copilot-day0-readiness?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=day0)
 - ⊘ **Should this process exist?**: before you build an agent for it, check the process should exist at all. Ten evidence questions, six gates, and the first one that catches it decides. Runs in your browser, nothing you type leaves the page, no signup. [Free tool](https://www.kesslernity.com/tools/triage-floor?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=tool_triage_floor)
