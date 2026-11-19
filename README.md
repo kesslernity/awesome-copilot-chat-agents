@@ -3,7 +3,7 @@
 > **82 ready-to-deploy agents for Microsoft Copilot Chat, no Copilot Premium required.**
 > Paste each instruction block into the Copilot Studio agent builder. No coding. Works on any commercial M365 licence.
 
-[![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/kesslernity/awesome-copilot-chat-agents?style=flat-square)](https://github.com/kesslernity/awesome-copilot-chat-agents)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 **Start here, free:** [Copilot on One Page](https://www.kesslernity.com/copilot-on-one-page?utm_source=github&utm_medium=readme&utm_campaign=chat_repo&utm_content=hero) is the four-step loop these agents are built around. One page, printable.
